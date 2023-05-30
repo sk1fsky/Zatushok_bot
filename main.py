@@ -2,49 +2,49 @@ import telebot
 from telebot import types
 import re
 
-bot = telebot.TeleBot('6056246270:AAG_Wyp9uNDSq0O0gz65x8b2SLP1Jzcn7xg')
+bot = telebot.TeleBot('Write_Your_Token')
 
 menu = {
     'Страви': {
         'Вареники': {
             'price': 50,
-            'photo': 'photos/varenyk.jpg'  # Шлях до фотографії в папці
+            'photo': 'photos/varenyk.jpg'  
         },
         'Деруни': {
             'price': 70,
-            'photo': 'photos/deruny.jpg'  # Шлях до фотографії в папці
+            'photo': 'photos/deruny.jpg'  
         },
         'Борщ': {
             'price': 60,
-            'photo': 'photos/borshch.jpg'  # Шлях до фотографії в папці
+            'photo': 'photos/borshch.jpg'  
         }
     },
     'Салати': {
         'Салат Цезар': {
             'price': 80,
-            'photo': 'photos/salat_cezar.png'  # Шлях до фотографії в папці
+            'photo': 'photos/salat_cezar.png'  
         },
         'Олів\'є': {
             'price': 90,
-            'photo': 'photos/salat_olive.jpg'  # Шлях до фотографії в папці
+            'photo': 'photos/salat_olive.jpg'  
         },
         'Салат Айзберг': {
             'price': 75,
-            'photo': 'photos/salat_iceberg.jpg'  # Шлях до фотографії в папці
+            'photo': 'photos/salat_iceberg.jpg'  
         }
     },
     'Напої': {
         'Кока-Кола': {
             'price': 30,
-            'photo': 'photos/photo_koka_cola.jpg'  # Шлях до фотографії в папці
+            'photo': 'photos/photo_koka_cola.jpg'  
         },
         'Фанта': {
             'price': 30,
-            'photo': 'photos/photo_fanta.jpg'  # Шлях до фотографії в папці
+            'photo': 'photos/photo_fanta.jpg'  
         },
         'Соки': {
             'price': 40,
-            'photo': 'photos/photo_soki.jpg'  # Шлях до фотографії в папці
+            'photo': 'photos/photo_soki.jpg'  
         }
     }
 }
